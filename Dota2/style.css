@@ -77,19 +77,19 @@ h1{
 }
 .topnav ul{
     display: fixed;
-    margin-left: 30px;
-    padding-top: 13px;
+    margin-left: 5vw;
+    padding-top: .6vw;
+    padding-left: 0;
 }
 .dota2{
-    float: left;
-    margin-left: 20px;
-    width: 60px;
+    margin-left: 2vw;
+    width: 4.5vw;
     position:absolute;
     cursor: pointer;
 }
 .dota2:hover{
-    width: 65px;
-    margin-left: 15px;
+    width: 4.8vw;
+    margin-left: 2vw;
     filter: brightness(1.5);
 }
 .topnav ul .Dota2{

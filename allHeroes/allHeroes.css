@@ -47,12 +47,11 @@ body{
 .all{
     padding: 0px 100px;
     margin-top: 50px;
-}
-.topnav ul li{
+}.topnav ul li{
     display: inline-block;
     color: rgb(133, 133, 133);
     margin-left: 30px;
-    font-size: 28px;
+    font-size: 2.5vw;
     text-shadow: 2px black;
     cursor: pointer;
     letter-spacing: .3mm;

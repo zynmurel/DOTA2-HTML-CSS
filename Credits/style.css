@@ -30,6 +30,7 @@
 body{
     background-image: url(/allHeroes/dota-2-logo-minimal-gray-background-dota2-creative.jpeg);
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     font-family: "TrajanBold";
     margin: 0px;
@@ -127,7 +128,7 @@ img{
 }
 .ref ul {
     list-style: none;
-    padding: 1vw;
+    padding: 0vw;
   }
   
 .ref  ul li::before {

@@ -24,28 +24,29 @@ body{
 .background{
     background-image: url(/allHeroes/dota-2-logo-minimal-gray-background-dota2-creative.jpeg) ;
     background-attachment: fixed;
+    background-position: center;
     background-size:cover;
 }
 .title{
     margin: 0px auto;
     text-align: center;
-    font-size: 50px;
+    font-size: 4.5vw;
     color: rgb(239, 239, 239);
-    height:80px;
+    height:6vw;
     letter-spacing: .06em;
     font-family: "TrajanBold";
 }
 .definition{
     margin-top: 0px;
     text-align: center;
-    font-size: 25px;
+    font-size: 2vw;
     color: rgb(239, 239, 239);
-    padding:0px 150px;
+    padding:0px 6vw;
     letter-spacing: .05em;
     font-family: none;
 }
 .all{
-    padding: 0px 100px;
+    padding: 0px 4vw;
     margin-top: 50px;
 }.topnav ul li{
     display: inline-block;
@@ -82,26 +83,31 @@ body{
 .grid-item {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    height: 130px;
-    font-size: 30px;
+    height: 8vw;
+    width: 14vw;
+    font-size: 1.5vw;
     text-align: center;
-    max-width: 214px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px black;
   }
   @keyframes animation3{
       from{margin-left: 0px; margin-right: 0px;}
-      to{margin-left: 150px; margin-right: 150px;}
+      to{margin-left: 10vw; margin-right: 10vw;}
   }
   .grid-container {
     display: grid;
     grid-template-columns:auto auto auto auto auto;
-    margin: 0px 150px 150px 150px;
-    grid-gap: 20px 20px;
+    margin: 0px 10vw 150px 10vw;
+    grid-gap: 2vw ;
     font-family: "TrajanBold";
     animation-name: animation3;
     animation-duration: 1s;
   }
+  .grid-container img{
+    float: left;
+    height: 2vw;
+}
+
 #a{
     background-image: url(/allHeroes/picture/Abaddon_icon.jpeg);
     background-size: cover;
@@ -114,12 +120,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
-}
-#a span img{
-    float: left;
-    height: 28px;
 }
 #a:hover{
     opacity: 1;
@@ -140,12 +141,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
-}
-#b span img{
-    float: left;
-    height: 28px;
 }
 #b:hover{
     opacity: 1;
@@ -166,13 +162,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#c span img{
-    float: left;
-    height: 28px;
 }
 #c:hover{
     opacity: 1;
@@ -193,13 +184,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#d span img{
-    float: left;
-    height: 28px;
 }
 #d:hover{
     opacity: 1;
@@ -220,13 +206,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#e span img{
-    float: left;
-    height: 28px;
 }
 #e:hover{
     opacity: 1;
@@ -247,13 +228,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#f span img{
-    float: left;
-    height: 28px;
 }
 #f:hover{
     opacity: 1;
@@ -274,12 +250,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
-}
-#g span img{
-    float: left;
-    height: 28px;
 }
 #g:hover{
     opacity: 1;
@@ -300,13 +271,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#i span img{
-    float: left;
-    height: 28px;
 }
 #i:hover{
     opacity: 1;
@@ -327,13 +293,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#j span img{
-    float: left;
-    height: 28px;
 }
 #j:hover{
     opacity: 1;
@@ -354,13 +315,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#m span img{
-    float: left;
-    height: 28px;
 }
 #m:hover{
     opacity: 1;
@@ -381,13 +337,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align: left;
-}
-#o span img{
-    float: left;
-    height: 28px;
 }
 #o:hover{
     opacity: 1;
@@ -408,13 +359,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align: left;
-}
-#p span img{
-    float: left;
-    height: 28px;
 }
 #p:hover{
     opacity: 1;
@@ -435,13 +381,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#q span img{
-    float: left;
-    height: 28px;
 }
 #q:hover{
     opacity: 1;
@@ -462,13 +403,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#r span img{
-    float: left;
-    height: 28px;
 }
 #r:hover{
     opacity: 1;
@@ -489,13 +425,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#s span img{
-    float: left;
-    height: 28px;
 }
 #s:hover{
     opacity: 1;
@@ -516,13 +447,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align: left;
-}
-#u span img{
-    float: left;
-    height: 28px;
 }
 #u:hover{
     opacity: 1;
@@ -543,13 +469,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align: left;
-}
-#v span img{
-    float: left;
-    height: 28px;
 }
 #v:hover{
     opacity: 1;
@@ -570,13 +491,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#w span img{
-    float: left;
-    height: 28px;
 }
 #w:hover{
     opacity: 1;
@@ -597,13 +513,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#x span img{
-    float: left;
-    height: 28px;
 }
 #x:hover{
     opacity: 1;
@@ -624,13 +535,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#z span img{
-    float: left;
-    height: 28px;
 }
 #z:hover{
     opacity: 1;
@@ -651,13 +557,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#aa span img{
-    float: left;
-    height: 28px;
 }
 #aa:hover{
     opacity: 1;
@@ -678,13 +579,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#cc span img{
-    float: left;
-    height: 28px;
 }
 #cc:hover{
     opacity: 1;
@@ -705,13 +601,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#dd span img{
-    float: left;
-    height: 28px;
 }
 #dd:hover{
     opacity: 1;
@@ -732,13 +623,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#ee span img{
-    float: left;
-    height: 28px;
 }
 #ee:hover{
     opacity: 1;
@@ -759,13 +645,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#ii span img{
-    float: left;
-    height: 28px;
 }
 #ii:hover{
     opacity: 1;
@@ -786,13 +667,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#kk span img{
-    float: left;
-    height: 28px;
 }
 #kk:hover{
     opacity: 1;
@@ -813,13 +689,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#ll span img{
-    float: left;
-    height: 28px;
 }
 #ll:hover{
     opacity: 1;
@@ -840,13 +711,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#mm span img{
-    float: left;
-    height: 28px;
 }
 #mm:hover{
     opacity: 1;
@@ -867,13 +733,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#nn span img{
-    float: left;
-    height: 28px;
 }
 #nn:hover{
     opacity: 1;
@@ -894,13 +755,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#qq span img{
-    float: left;
-    height: 28px;
 }
 #qq:hover{
     opacity: 1;
@@ -921,13 +777,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 20px;
     visibility: hidden;
     text-align:left;
-}
-#aaaa span img{
-    float: left;
-    height: 28px;
 }
 #aaaa:hover{
     opacity: 1;

@@ -48,6 +48,7 @@ body{
     font-family: "TrajanBold";
     background-image: url(/allHeroes/dota-2-logo-minimal-gray-background-dota2-creative.jpeg);
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     margin: 0px;
     position: relative;

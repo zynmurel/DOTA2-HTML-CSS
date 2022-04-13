@@ -11,11 +11,11 @@
     to {filter: brightness(1);}
 }
 body{
-    margin:0px;
     background-color: black;
-    background-image: url(/images/juggernaut3_hufd9f913651344363ab5bddeb38b0d1d4_1285761_1920x1080_resize_q75_lanczos.jpeg);
-    background-size:100%;
-    background-repeat: no-repeat;
+      background-image: url(/images/juggernaut3_hufd9f913651344363ab5bddeb38b0d1d4_1285761_1920x1080_resize_q75_lanczos.jpeg) ;
+      background-attachment: fixed;
+      background-size: cover;
+    margin:0px;
     animation: opening;
     animation-duration: 1s;
 }
@@ -26,7 +26,7 @@ body{
 ul li{
     display: block;
     background-color: black;
-    margin: 50px auto;
+    margin: 25px auto;
     border: 2px solid rgb(107, 21, 0);
     border-radius: 50px;
     height: 45px;
@@ -53,7 +53,8 @@ ul li:hover{
 }
 ul{
     width: 100%;
-    margin-top: 150px;
+    margin-top:30vh;
+
     padding: 0;
     animation-name: animation;
     animation-duration: 1s;

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: TrajanPro;
+    src: url(/fonts/Trajan\ Pro.ttf);
+    font-family: TrajanRegular;
+    src: url(/fonts/TrajanPro-Regular.ttf);
+    font-family: TrajanBold;
+    src: url(/fonts/TrajanPro-Bold.otf);
+}
+@keyframes opening{
+    from {filter: brightness(0);}
+    to {filter: brightness(1);}
+}
+body{
+    margin:0px;
+    background-color: black;
+    background-image: url(/images/juggernaut3_hufd9f913651344363ab5bddeb38b0d1d4_1285761_1920x1080_resize_q75_lanczos.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: opening;
+    animation-duration: 1s;
+}
+.data a{
+    text-decoration: none;
+}
+
+ul li{
+    display: block;
+    background-color: black;
+    margin: 50px auto;
+    border: 2px solid rgb(107, 21, 0);
+    border-radius: 50px;
+    height: 45px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 26px;
+    opacity: .7;
+    font-family:"TrajanBold";
+    width: 350px;
+    cursor: pointer;
+    padding-top: 6px;
+    color: rgb(255, 204, 109);
+}
+
+ul li:hover{
+    width: 380px ;
+    font-size: 30px ;
+    opacity: 1;
+    border-color: red;
+}
+@keyframes animation{
+    from{padding-left: 0px;}
+    to{padding-left: 30px;}
+}
+ul{
+    width: 1420px;
+    padding: 30px;
+    margin-top: 150px;
+    animation-name: animation;
+    animation-duration: 1s;
+    }

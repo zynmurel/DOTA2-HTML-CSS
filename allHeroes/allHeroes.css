@@ -1,0 +1,939 @@
+@font-face {
+    font-family: TrajanPro;
+    src: url(/fonts/Trajan\ Pro.ttf);
+}
+@font-face {
+    font-family: TrajanRegular;
+    src: url(/fonts/TrajanPro-Regular.ttf);
+}
+@font-face {
+    font-family: TrajanBold;
+    src: url(/fonts/TrajanPro-Bold.otf);
+}
+@keyframes open {
+    from{opacity: 0;}
+    to{opacity: 1;}   
+}
+body{
+  margin: 0px;
+  font-family: "TrajanBold";
+  background-color: black;
+  animation-name: open;
+  animation-duration: .5s;
+}
+.background{
+    background-image: url(/allHeroes/dota-2-logo-minimal-gray-background-dota2-creative.jpeg) ;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.title{
+    margin: 0px auto;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(239, 239, 239);
+    height:80px;
+    letter-spacing: .06em;
+    font-family: "TrajanBold";
+}
+.definition{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(239, 239, 239);
+    padding:0px 150px;
+    letter-spacing: .05em;
+    font-family: none;
+}
+.all{
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+.topnav ul li{
+    display: inline-block;
+    color: rgb(133, 133, 133);
+    margin-left: 30px;
+    font-size: 28px;
+    text-shadow: 2px black;
+    cursor: pointer;
+    letter-spacing: .3mm;
+}
+.topnav ul li:hover{
+    color: white;
+}
+.topnav ul{
+    display: fixed;
+    margin-left: 30px;
+    padding-top: 13px;
+}
+.dota2{
+    float: left;
+    margin-left: 20px;
+    position:absolute;
+    cursor: pointer;
+}
+.dota2:hover{
+    width: 65px;
+    margin-left: 15px;
+    filter: brightness(1.5);
+}
+.topnav ul .Heroes{
+    border-bottom: 3px solid rgb(186, 121, 1);
+    color: white;
+}
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 130px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 214px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+  }
+  @keyframes animation3{
+      from{margin-left: 0px; margin-right: 0px;}
+      to{margin-left: 150px; margin-right: 150px;}
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin: 0px 150px 150px 150px;
+    grid-gap: 20px 20px;
+    font-family: "TrajanBold";
+    animation-name: animation3;
+    animation-duration: 1s;
+  }
+#a{
+    background-image: url(/allHeroes/picture/Abaddon_icon.jpeg);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#a span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+}
+#a span img{
+    float: left;
+    height: 28px;
+}
+#a:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#a:hover span{
+    visibility: visible;
+}
+#b{
+    background-image: url(/allHeroes/picture/Alchemist_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#b span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+}
+#b span img{
+    float: left;
+    height: 28px;
+}
+#b:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#b:hover span{
+    visibility: visible;
+}
+#c{
+    background-image: url(/allHeroes/picture/AncientApparition.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#c span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#c span img{
+    float: left;
+    height: 28px;
+}
+#c:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#c:hover span{
+    visibility: visible;
+}
+#d{
+    background-image: url(/allHeroes/picture/AntiMage.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#d span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#d span img{
+    float: left;
+    height: 28px;
+}
+#d:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#d:hover span{
+    visibility: visible;
+}
+#e{
+    background-image: url(/allHeroes/picture/ArcWarden.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#e span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#e span img{
+    float: left;
+    height: 28px;
+}
+#e:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#e:hover span{
+    visibility: visible;
+}
+#f{
+    background-image: url(/allHeroes/picture/Axe.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#f span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#f span img{
+    float: left;
+    height: 28px;
+}
+#f:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#f:hover span{
+    visibility: visible;
+}
+#g{
+    background-image: url(/allHeroes/picture/Bane.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#g span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+}
+#g span img{
+    float: left;
+    height: 28px;
+}
+#g:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#g:hover span{
+    visibility: visible;
+}
+#i{
+    background-image: url(/allHeroes/picture/Beastmaster.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#i span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#i span img{
+    float: left;
+    height: 28px;
+}
+#i:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#i:hover span{
+    visibility: visible;
+}
+#j{
+    background-image: url(/allHeroes/picture/Bloodseeker.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#j span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#j span img{
+    float: left;
+    height: 28px;
+}
+#j:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#j:hover span{
+    visibility: visible;
+}
+#m{
+    background-image: url(/allHeroes/picture/Bristleback.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#m span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#m span img{
+    float: left;
+    height: 28px;
+}
+#m:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#m:hover span{
+    visibility: visible;
+}
+#o{
+    background-image: url(/allHeroes/picture/Centaur_Warrunner.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#o span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align: left;
+}
+#o span img{
+    float: left;
+    height: 28px;
+}
+#o:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#o:hover span{
+    visibility: visible;
+}
+#p{
+    background-image: url(/allHeroes/picture/Chaos_Knight.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#p span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align: left;
+}
+#p span img{
+    float: left;
+    height: 28px;
+}
+#p:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#p:hover span{
+    visibility: visible;
+}
+#q{
+    background-image: url(/allHeroes/picture/Chen.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#q span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#q span img{
+    float: left;
+    height: 28px;
+}
+#q:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#q:hover span{
+    visibility: visible;
+}
+#r{
+    background-image: url(/allHeroes/picture/Clinkz.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#r span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#r span img{
+    float: left;
+    height: 28px;
+}
+#r:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#r:hover span{
+    visibility: visible;
+}
+#s{
+    background-image: url(/allHeroes/picture/Clockwerk.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#s span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#s span img{
+    float: left;
+    height: 28px;
+}
+#s:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#s:hover span{
+    visibility: visible;
+}
+#u{
+    background-image: url(/allHeroes/picture/Dark_Seer_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#u span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align: left;
+}
+#u span img{
+    float: left;
+    height: 28px;
+}
+#u:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#u:hover span{
+    visibility: visible;
+}
+#v{
+    background-image: url(/allHeroes/picture/Dark_Willow_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#v span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align: left;
+}
+#v span img{
+    float: left;
+    height: 28px;
+}
+#v:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#v:hover span{
+    visibility: visible;
+}
+#w{
+    background-image: url(/allHeroes/picture/Dawnbreaker_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#w span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#w span img{
+    float: left;
+    height: 28px;
+}
+#w:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#w:hover span{
+    visibility: visible;
+}
+#x{
+    background-image: url(/allHeroes/picture/Dazzle_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#x span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#x span img{
+    float: left;
+    height: 28px;
+}
+#x:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#x:hover span{
+    visibility: visible;
+}
+#z{
+    background-image: url(/allHeroes/picture/Disruptor_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#z span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#z span img{
+    float: left;
+    height: 28px;
+}
+#z:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#z:hover span{
+    visibility: visible;
+}
+#aa{
+    background-image: url(/allHeroes/picture/Doom_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#aa span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#aa span img{
+    float: left;
+    height: 28px;
+}
+#aa:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#aa:hover span{
+    visibility: visible;
+}
+#cc{
+    background-image: url(/allHeroes/picture/Drow_Ranger_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#cc span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#cc span img{
+    float: left;
+    height: 28px;
+}
+#cc:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#cc:hover span{
+    visibility: visible;
+}
+#dd{
+    background-image: url(/allHeroes/picture/Earth_Spirit_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#dd span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#dd span img{
+    float: left;
+    height: 28px;
+}
+#dd:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#dd:hover span{
+    visibility: visible;
+}
+#ee{
+    background-image: url(/allHeroes/picture/Earthshaker_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#ee span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#ee span img{
+    float: left;
+    height: 28px;
+}
+#ee:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#ee:hover span{
+    visibility: visible;
+}
+#ii{
+    background-image: url(/allHeroes/picture/Enigma_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#ii span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#ii span img{
+    float: left;
+    height: 28px;
+}
+#ii:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#ii:hover span{
+    visibility: visible;
+}
+#kk{
+    background-image: url(/allHeroes/picture/Grimstroke_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#kk span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#kk span img{
+    float: left;
+    height: 28px;
+}
+#kk:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#kk:hover span{
+    visibility: visible;
+}
+#ll{
+    background-image: url(/allHeroes/picture/Gyrocopter_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#ll span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#ll span img{
+    float: left;
+    height: 28px;
+}
+#ll:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#ll:hover span{
+    visibility: visible;
+}
+#mm{
+    background-image: url(/allHeroes/picture/Hoodwink_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#mm span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#mm span img{
+    float: left;
+    height: 28px;
+}
+#mm:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#mm:hover span{
+    visibility: visible;
+}
+#nn{
+    background-image: url(/allHeroes/picture/Huskar_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#nn span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#nn span img{
+    float: left;
+    height: 28px;
+}
+#nn:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#nn:hover span{
+    visibility: visible;
+}
+#qq{
+    background-image: url(/allHeroes/picture/Jakiro_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#qq span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#qq span img{
+    float: left;
+    height: 28px;
+}
+#qq:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#qq:hover span{
+    visibility: visible;
+}
+#aaaa{
+    background-image: url(/allHeroes/picture/Pudge_icon.webp);
+    background-size: cover;
+    filter: brightness(.7);
+    color: white;
+    position: relative;
+    cursor: pointer ;
+}
+#aaaa span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    visibility: hidden;
+    text-align:left;
+}
+#aaaa span img{
+    float: left;
+    height: 28px;
+}
+#aaaa:hover{
+    opacity: 1;
+    filter: brightness(1);
+}
+#aaaa:hover span{
+    visibility: visible;
+}

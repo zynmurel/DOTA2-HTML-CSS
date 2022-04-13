@@ -1,0 +1,151 @@
+@font-face {
+    font-family: TrajanPro;
+    src: url(/fonts/Trajan\ Pro.ttf);
+}
+@font-face {
+    font-family: TrajanRegular;
+    src: url(/fonts/TrajanPro-Regular.ttf);
+}
+@font-face {
+    font-family: TrajanBold;
+    src: url(/fonts/TrajanPro-Bold.otf);
+}@font-face {
+    font-family: LexendL;
+    src: url(/fonts/Lexend-Light.ttf);
+}
+@keyframes animation1 {
+    from{right: -200px;} 
+    to{right: -50px;}
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes animation2 {
+    from{left: -370px;} 
+    to{left: -220px;}
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes animation3 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}@keyframes animation4 {
+    from{right: -200px;} 
+    to{right: -50px;}
+    from{bottom: 300px;} 
+    to{bottom: 150px;}
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes animation5 {
+    from{left: -370px;} 
+    to{left: -150px;}
+    from{bottom: 300px;} 
+    to{bottom: 150px;}
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+body{
+    font-family: "TrajanBold";
+    background-image: url(/allHeroes/dota-2-logo-minimal-gray-background-dota2-creative.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    position: relative;
+    background-color: black;
+    animation-name: animation3;
+    animation-duration: 1s;
+}
+h1{
+
+    font-size:45px;
+    color: rgb(255, 166, 0);
+    text-align: center;
+    text-shadow: .05em .05em .02em rgb(156, 76, 0);
+}
+.topnav ul li{
+    display: inline-block;
+    color: rgb(133, 133, 133);
+    margin-left: 30px;
+    font-size: 28px;
+    text-shadow: 2px black;
+    cursor: pointer;
+    letter-spacing: .3mm;
+}
+.topnav ul li:hover{
+    color: white;
+}
+.topnav ul{
+    display: fixed;
+    margin-left: 30px;
+    padding-top: 13px;
+}
+.dota2{
+    float: left;
+    margin-left: 20px;
+    position:absolute;
+    cursor: pointer;
+}
+.dota2:hover{
+    width: 65px;
+    margin-left: 15px;
+    filter: brightness(1.5);
+}
+.topnav ul .Dota2{
+    border-bottom: 3px solid rgb(186, 121, 1);
+    color: white;
+}
+.definition{
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 30px 300px;
+    padding: 40px;
+    font-size: 1.6em;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    z-index: 1;
+}
+.heading{
+    text-align: center;
+}
+p{
+    font-family: LexendL;
+}
+.img1{
+    width: 800px;
+    position: absolute;
+    bottom: -200px;
+    left: -220px;
+    animation-name: animation2;
+    animation-duration: 2s;
+    z-index: 3;
+}
+.img2{
+    width: 530px;
+    position: absolute; 
+    bottom: -190px; 
+    right: -50px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    animation-name: animation1;
+    animation-duration: 2s;
+    z-index: 3;
+}
+.img4{
+    width: 600px;
+    position: absolute;
+    bottom: 150px;
+    left: -150px;
+    animation-name: animation5;
+    animation-duration: 2s;
+    z-index: 2;
+}
+.img3{
+    width: 390px;
+    position: absolute; 
+    bottom: 150px; 
+    right: -50px;
+    animation-name: animation4;
+    animation-duration: 2s;
+    z-index: 2;
+}

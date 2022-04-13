@@ -14,7 +14,7 @@ body{
     margin:0px;
     background-color: black;
     background-image: url(/images/juggernaut3_hufd9f913651344363ab5bddeb38b0d1d4_1285761_1920x1080_resize_q75_lanczos.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     animation: opening;
     animation-duration: 1s;
@@ -48,13 +48,13 @@ ul li:hover{
     border-color: red;
 }
 @keyframes animation{
-    from{padding-left: 0px;}
-    to{padding-left: 30px;}
+    from{margin-left: -60px;}
+    to{margin-left: 0px;}
 }
 ul{
-    width: 1420px;
-    padding: 30px;
+    width: 100%;
     margin-top: 150px;
+    padding: 0;
     animation-name: animation;
     animation-duration: 1s;
     }

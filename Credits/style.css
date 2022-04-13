@@ -36,22 +36,11 @@ body{
     animation-name: one;
     animation-duration: 1s;
     background-color: black;
-}
-.up{
-    width: 70px;
-    height: 70px;
-    position: fixed;
-    background-color: rgb(255, 136, 0, .5);
-    border: 5px solid black;
-    border-radius: 60px;
-    bottom: 2%;
-    left: 2%;
-}
-.topnav ul li{
+}.topnav ul li{
     display: inline-block;
     color: rgb(133, 133, 133);
     margin-left: 30px;
-    font-size: 28px;
+    font-size: 2.5vw;
     text-shadow: 2px black;
     cursor: pointer;
     letter-spacing: .3mm;
@@ -80,8 +69,8 @@ body{
     color: white;
 }
 .all{
-    font-size: 25px;
-    margin: 0px 300px;
+    font-size: 2vw;
+    margin: 0px 20vw;
 }
 .instructor img{
     object-fit: cover;
@@ -90,16 +79,16 @@ body{
     float: left;
     border-radius: 30px;
 }
-.group img{
+.group img, .in img{
     object-fit: cover;
-    width:60px;
-    height:60px;
+    width:5.5vw;
+    height:5.5vw;
     float: left;
     border-radius: 30px;
 }
 .midterm, .subject, .group, .instructor, .ref{
     background-color: rgb(0, 0, 0, 0.8);
-    padding: 10px 100px;
+    padding: 10px 8vw;
     margin: 20px 0px;
     padding-bottom: 40px;
     color: white;
@@ -107,7 +96,7 @@ body{
     border-radius: 10px;
 }
 .midterm{
-    font-size:35px;
+    font-size:2.5vw;
     text-align: center;
     text-shadow: .05em .05em .02em rgb(156, 76, 0);
     padding: 10px 50px;
@@ -125,19 +114,20 @@ body{
     text-shadow: .05em .05em .02em rgb(156, 76, 0);
 }
 .in{
-    padding: 0px 12%;
+    padding: 0px 3vw;
 }
 img{
     margin-right: 20px;
 }
 .in h3{
-    padding-top: 7px;
+    padding-top: 1vw;
 }
 #in img{
     border-radius: 0px;
 }
 .ref ul {
     list-style: none;
+    padding: 1vw;
   }
   
 .ref  ul li::before {
